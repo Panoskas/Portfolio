@@ -1,3 +1,3 @@
 ﻿release: python3 manage.py migrate
-web: gunicorn pkfolio.wsgi --lof-file=-
+web: gunicorn personal_portfolio --lof-file=-
 
